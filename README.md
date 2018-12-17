@@ -18,6 +18,18 @@ This package is a command line utility for speeding up the deletion of unwanted 
 
 `tidy-cra`
 
+## Automate
+
+In `.zshrc`:
+
+```
+function cra () {
+  npx create-react-app $1
+  cd $1
+  tidy-cra
+}
+```
+
 ## Disclaimer
 
 I take no responsibility for this
