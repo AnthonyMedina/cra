@@ -1,24 +1,6 @@
 # Tidy Create React App
 
-This package is a command line utility for speeding up the deletion of unwanted code in a fresh create-react-app project.
-
-## Installation
-
-`git clone` this repo
-
-`cd` into the newly created directory
-
-`npm i -g`
-
-## Use
-
-`npx create-react-app <your-project-name>`
-
-`cd <your-project-name>`
-
-`tidy-cra`
-
-## Automate
+## Example
 
 In `.zshrc`:
 
@@ -27,7 +9,11 @@ function cra () {
   npx create-react-app $1
   cd $1
   rm src/App.js src/App.test.js src/App.css src/serviceWorker.js src/logo.svg
-  tidy-cra
+  repo=https://raw.githubusercontent.com/AnthonyMedina/tidy-cra/master/templates
+  curl $repo/app.css > src/app.css
+  curl $repo/app.js > src/app.js
+  curl $repo/index.css > src/index.css
+  curl $repo/index.js > src/index.js
   code .
 }
 ```
