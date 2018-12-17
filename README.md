@@ -26,7 +26,9 @@ In `.zshrc`:
 function cra () {
   npx create-react-app $1
   cd $1
+  rm src/App.js src/App.test.js src/App.css src/serviceWorker.js src/logo.svg
   tidy-cra
+  code .
 }
 ```
 
