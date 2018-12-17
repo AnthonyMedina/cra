@@ -1,0 +1,14 @@
+{
+  "name": "tidy-cra",
+  "version": "1.0.0",
+  "description": "removes bumpf from create-react-app",
+  "main": "index.js",
+  "bin": {
+    "tidy-cra": "./index.js"
+  },
+  "author": "Ant Medina",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
