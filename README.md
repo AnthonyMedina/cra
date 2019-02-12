@@ -2,11 +2,11 @@
 
 Create React App, removing extras.
 
-## Example
+## Script
 
 In `.zshrc`:
 
-```
+```bash
 function cra () {
   npx create-react-app $1
   rm $1/src/App.js $1/src/App.test.js $1/src/App.css $1/src/serviceWorker.js $1/src/logo.svg
