@@ -4,8 +4,6 @@ Create React App, removing extras.
 
 ## Script
 
-In `.zshrc`:
-
 ```bash
 function cra () {
   npx create-react-app $1
