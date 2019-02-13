@@ -4,7 +4,7 @@ Run Create React App, removing extras.
 
 ## Installation
 
-** This assumes you have oh-my-zsh already installed **
+**This assumes you have oh-my-zsh already installed**
 
 Clone the repo into your oh-my-zsh custom plugins:
 
