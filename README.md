@@ -20,7 +20,7 @@ git clone https://github.com/AnthonyMedina/cra.git $ZSH/custom/plugins/cra
 Add this `cra` to the plugins array in your `.zshrc`:
 
 ```bash
-plugins=(... ant)
+plugins=(... cra)
 ```
 
 Source your `.zshrc` to register the changes:
