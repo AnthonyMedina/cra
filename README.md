@@ -36,6 +36,8 @@ function cra() {
     templates="$ZSH/custom/plugins/cra/templates"
     cp -rf "$templates/." $1
     code $1
+    cd $1 && git add . && git commit -m 'use custom templates'
+    cd ..
   fi
 }
 ```
