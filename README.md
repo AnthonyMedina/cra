@@ -4,7 +4,12 @@ Run Create React App, removing extras.
 
 ## Installation
 
-**This assumes you have oh-my-zsh already installed**
+**This assumes several things:**
+
+1. You are running [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+2. You have the `code` shell command installed to launch VS Code
+3. You have `npx`
+4. Probably some other stuff
 
 Clone the repo into your oh-my-zsh custom plugins:
 
