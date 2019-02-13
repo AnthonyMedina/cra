@@ -1,6 +1,28 @@
 # CRA
 
-Create React App, removing extras.
+Run Create React App, removing extras.
+
+## Installation
+
+** This assumes you have oh-my-zsh already installed **
+
+Clone the repo into your oh-my-zsh custom plugins:
+
+```bash
+git clone https://github.com/AnthonyMedina/tidy-cra $ZSH/custom/plugins/cra
+```
+
+Add this `cra` to the plugins array in your `.zshrc`:
+
+```bash
+plugins=(... ant)
+```
+
+Source your `.zshrc` to register the changes:
+
+```bash
+source .zshrc
+```
 
 ## Script
 
