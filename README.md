@@ -9,6 +9,7 @@ Run Create React App, removing extras.
 1. You are running [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 2. You have the `code` shell command installed to launch VS Code
 3. You have `npx`
+4. I used this with `yarn`
 4. Probably some other stuff
 
 Clone the repo into your oh-my-zsh custom plugins:
@@ -26,7 +27,7 @@ plugins=(... cra)
 Source your `.zshrc` to register the changes:
 
 ```bash
-source .zshrc
+source ~/.zshrc
 ```
 
 ## Script
