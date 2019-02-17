@@ -4,7 +4,7 @@ function cra() {
     exit
   fi
 
-  npx create-react-app $1
+  npx create-react-app $1 $2
   rm -rf "$1/src/"
   templates="$ZSH/custom/plugins/cra/templates"
 
