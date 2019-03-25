@@ -50,8 +50,8 @@ fi
 
 code $1
 cd $1
-git mv -f "$1/src/App.js" "$1/src/app.js"
-git mv -f "$1/src/App.css" "$1/src/app.css"
+git mv -f "src/App.js" "src/app.js"
+git mv -f "src/App.css" "src/app.css"
 git add .
 git commit -m 'use custom templates'
 cd ..
