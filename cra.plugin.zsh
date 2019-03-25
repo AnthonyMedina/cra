@@ -5,8 +5,6 @@ function cra() {
   fi
 
   npx create-react-app $1 $2
-  git mv -f "$1/src/App.js" "$1/src/app.js"
-  git mv -f "$1/src/App.css" "$1/src/app.css"
   rm -rf "$1/src/"
   templates="$ZSH/custom/plugins/cra/templates"
 
@@ -17,6 +15,10 @@ function cra() {
   fi
 
   code $1
-  cd $1 && git add . && git commit -m 'use custom templates'
+  cd $1
+  git mv -f "$1/src/App.js" "$1/src/app.js"
+  git mv -f "$1/src/App.css" "$1/src/app.css"
+  git add .
+  git commit -m 'use custom templates'
   cd ..
 }
