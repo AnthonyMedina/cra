@@ -1,7 +1,7 @@
 import React from 'react';
 import './app.css';
 
-const App = () => {
+function App () {
   return (
     <div className="app">
       <h1>CRA</h1>
